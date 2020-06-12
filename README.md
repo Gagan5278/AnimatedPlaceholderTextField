@@ -6,3 +6,10 @@
 
 # HOW TO USE
  ** Add 'PlaceholderFieldView' folder in your project. 'PlaceholderFieldView' contains two files 1. PlaceholderTextfieldView.swift and 2. CustomTextfiled.swift
+
+Open your storyboard file and add a UIView and make as a sub class of 'PlaceholderView'
+
+and reset all your components in storyboard inspector.
+
+
+Now done. Run your app and you can see output.
