@@ -8,6 +8,7 @@
  ** Add 'PlaceholderFieldView' folder in your project. 'PlaceholderFieldView' contains two files 1. PlaceholderTextfieldView.swift and 2. CustomTextfiled.swift
 
 Open your storyboard file and add a UIView and make as a sub class of 'PlaceholderView'
+<img width="496" alt="Screen Shot 2020-06-12 at 11 49 03 PM" src="https://user-images.githubusercontent.com/2304583/84549280-e9f8e280-ad07-11ea-8afe-e456108eb327.png">
 
 and reset all your components in storyboard inspector.
 
