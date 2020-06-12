@@ -30,11 +30,13 @@ class CustomTextfiled: UITextField {
         bottomLine.translatesAutoresizingMaskIntoConstraints = false
         //1. set border to none
         borderStyle = .none
-        //2. set deafult bottom color
+        //2. Set placeholder empty
+        placeholder = ""
+        //3. set deafult bottom color
         self.setDefaultUnderlineColor()
-        //3. Add bottom view on Textfield
+        //4. Add bottom view on Textfield
         self.addSubview(bottomLine)
-        //4. Autolayout setup for bottomLine
+        //5. Autolayout setup for bottomLine
         bottomLine.topAnchor.constraint(equalTo: self.bottomAnchor, constant: 0).isActive = true
         bottomLine.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
         bottomLine.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
